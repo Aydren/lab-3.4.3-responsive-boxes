@@ -1,3 +1,60 @@
+/*********************************
+* General
+*********************************/
+
+* {
+  border: 1px solid black;
+}
+
 body {
   background: peachpuff;
 }
+
+/*********************************
+* Header
+*********************************/
+
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: red;
+}
+
+header div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/*********************************
+* Container
+*********************************/
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+/*********************************
+* Aside/Nav
+*********************************/
+
+aside {
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*********************************
+* Main
+*********************************/
+
+
+
+/*********************************
+* Footer
+*********************************/
